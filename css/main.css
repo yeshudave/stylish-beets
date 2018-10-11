@@ -79,6 +79,6 @@ footer a:hover {
   color: #3f1622;
 }
 
-dl p {
+.one, .two{
   font-style: italic;
 }
