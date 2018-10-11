@@ -2,7 +2,8 @@ html {
   background-color: #c9b5ab;
   font-family: 'PT Serif', serif;
   line-height: 1.5;
-  font-size: 0.8rem;
+  font-size: 1.125rem;
+  color: #222;
 }
 
 h1, nav, h2 {
@@ -10,14 +11,23 @@ h1, nav, h2 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  color: #3f1622;
+  font-weight: bold;
+}
+
+h2 {
   color: #3f1622;
 }
 
-nav {
-  font-size: 1.125rem;
+nav ol {
+  list-style-type: none;
+  font-size: 1.5rem;
   font-weight: bold;
+}
+
+nav a {
   color: #8f2440;
+  text-decoration: none;
 }
 
 figcaption {
@@ -27,4 +37,48 @@ figcaption {
 nav a:hover {
   color: #3f1622;
   text-decoration: underline;
+}
+
+section {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote cite {
+  font-size: 0.8rem;
+}
+
+blockquote strong {
+  font-weight: normal;
+}
+
+ol {
+  list-style-type: lower-greek;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+footer a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+}
+
+dl p {
+  font-style: italic;
 }
