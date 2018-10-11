@@ -67,6 +67,11 @@ dt {
 
 ul {
   list-style-type: circle;
+  font-size: .8rem;
+}
+
+footer {
+  font-size: .8rem;
 }
 
 footer a:hover {
